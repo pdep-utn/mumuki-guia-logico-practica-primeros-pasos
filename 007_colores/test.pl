@@ -23,3 +23,15 @@ findall(Color,leAtrae(ana, Color),Colores),
 member(rosa, Colores),
 member(naranja, Colores).
 
+test(test_viernes_puedeIluminarseCon):-
+findall(Color,puedeIluminarseCon(viernes, Color),Colores),
+member(amarillo, Colores),
+member(azul, Colores).
+
+test(test_domingo_puedeIluminarseCon):-
+findall(Color,puedeIluminarseCon(domingo, Color),Colores),
+member(naranja, Colores),
+member(rosa, Colores).
+
+test(test_viernes_no_puedeIluminarseCon_rosa):-
+not(puedeIluminarseCon(viernes,rosa)).
