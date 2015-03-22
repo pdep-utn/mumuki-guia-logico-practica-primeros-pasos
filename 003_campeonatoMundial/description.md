@@ -9,7 +9,7 @@ Incluir en la base de conocimiento del programa la siguiente información:
 
 Se pide condificar el siguiente predicado:
 
-## `rival/2
+## `rival/2`
 
 que relaciona dos seleccioens que son rivales.
 
