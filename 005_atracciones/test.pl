@@ -1,20 +1,23 @@
-test(test_esCompatibleCon_maria_juan):-
-esCompatibleCon(maria,juan).
+test(test_rta_b):-
+findall(Respuesta,respuesta(b,Respuesta),Respuestas),
+member(nora,Respuestas),
+member(ana,Respuestas),
+member(nuria,Respuestas),
+member(zulema,Respuestas).
 
-test(test_esCompatibleCon_ursula_pedro):-
-esCompatibleCon(ursula,pedro).
+test(test_rta_c):-
+findall(Respuesta,respuesta(c,Respuesta),Respuestas),
+member(marcos,Respuestas),
+member(roque,Respuestas),
+member(juan,Respuestas).
 
-test(test_esCompatibleCon_maria_juan):-
-esCompatibleCon(juana,juan).
+test(test_rta_d):-
+findall(Respuesta,respuesta(d,Respuesta),Respuestas),
+member(zulema,Respuestas).
 
-test(test_no_esCompatibleCon_maria_pedro):-
-not(esCompatibleCon(maria,pedro)).
+test(test_rta_e):-
+findall(Respuesta,respuesta(e,Respuesta),Respuestas),
+member(roque,Respuestas),
+member(juan,Respuestas),
 
-test(test_no_esCompatibleCon_juana_jose):-
-not(esCompatibleCon(juana,jose)).
 
-test(test_esDeseable_juan):-
-esDeseable(Juan).
-
-test(test_no_esDeseable_pedro):-
-not(esDeseable(pedro)).

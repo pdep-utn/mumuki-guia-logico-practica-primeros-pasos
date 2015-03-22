@@ -10,11 +10,10 @@ gustaDe(luis,nora).
 gustaDe(roque,nora).
 gustaDe(roque,ana).
 gustaDe(marcos,zulema).
-gustaDe(X,zulema):- gustaDe(X,ana).
-gustaDe(juan,X):- gustaDe(roque,X).
-gustaDe(X,Y):- gustaDe(X,ana).
+gustaDe(Chico,zulema):- gustaDe(Chico,ana).
+gustaDe(juan,Chica):- gustaDe(roque,Chica).
 gustaDe(juan,nuria).
-compiten(X,Y):- gustaDe(X,Z), gustaDe(Y,Z).
+compiten(Chico,Competidor):- gustaDe(Chico,Chica), gustaDe(Competidor,Chica), Chico\=Competidor.
 ```
 
 * Determinar con cuáles de las cláusulas unifica cada una de las consultas de acá abajo. En cada caso que una
@@ -24,10 +23,8 @@ cláusula unifica con una consulta, indicar qué variables se ligan y con qué �
 a) ?- gustaDe(luis,A).
 b) ?- gustaDe(juan,A).
 c) ?- gustaDe(A,zulema).
-d) ?- gustaDe(marcos,ana).
-e) ?- gustaDe(juan,zulema).
-f) ?- gustaDe(A,B).
-g) ?- compiten(luis,X).
+d) ?- gustaDe(marcos,A).
+e) ?- compiten(luis,X).
 ```
 
 Pero como en la Universidad Tecnológica Nacional (una vil copia de la auténtica UTN) no quieren ser menos, ellos deciden codificar un predicado que responda a todas estas preguntas y demostrar que saben más:
@@ -42,4 +39,7 @@ Por ejemplo:
 ?- respuesta(a,nora).
 true.
 ```
+
+(NOTA: si una consulta liga con varios átomos -por inversibilidad- se deben indicar todos ellos).
+
 
