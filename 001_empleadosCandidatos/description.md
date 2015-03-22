@@ -2,17 +2,21 @@ Una empresa está buscando candidatos para varios de sus sectores.
 Con los requerimientos de cada sector, se arma este programa Prolog:
 
 ```prolog
-puedeAndar(comercioExterior,Persona):- habla(ingles,Persona),
-                                       habla(frances,Persona), 
-                                       profesional(Persona).
+puedeAndar(comercioExterior,Persona):- 
+	habla(ingles,Persona),
+	habla(frances,Persona), 
+	profesional(Persona).
 
-puedeAndar(comercioExterior,Persona):- ambicioso(Persona).
+puedeAndar(comercioExterior,Persona):- 
+	ambicioso(Persona).
 
-puedeAndar(contaduria,Persona):- contador(Persona),
-                                 honesto(Persona).
+puedeAndar(contaduria,Persona):-
+	contador(Persona),
+	honesto(Persona).
 
-puedeAndar(ventas,Persona):- ambicioso(Persona),
-                             conExperiencia(Persona).
+puedeAndar(ventas,Persona):- 
+	ambicioso(Persona),
+	conExperiencia(Persona).
 
 puedeAndar(ventas,lucia).
 
@@ -20,7 +24,9 @@ profesional(Persona):- contador(Persona).
 profesional(Persona):- abogado(Persona).
 profesional(Persona):- ingeniero(Persona).
 
-ambicioso(Persona):- contador(Persona), joven(Persona).
+ambicioso(Persona):- 
+	contador(Persona),
+	joven(Persona).
 
 conExperiencia(Persona):- trabajoEn(Persona,_).
 
