@@ -78,8 +78,13 @@ not(puedeAndar(logistica,lucia)).
 test(test_no_puedeAndar_logistica_cecilia):-
 not(puedeAndar(logistica,cecilia)).
 
+test(test_fulgencio_proyectosSi_logisticaNo):-
+puedeAndar(proyectos,fulgencio),
+not(puedeAndar(logistica,fulgencio)).
 
-
+test(test_clotilde_ventasSi_contaduriaNo):-
+puedeAndar(ventas,clotilde),
+not(puedeAndar(contaduria,clotilde)).
 
 
 

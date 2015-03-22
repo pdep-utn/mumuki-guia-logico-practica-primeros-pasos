@@ -63,7 +63,7 @@ Se pide agregar las cláusulas de `puedeAndar/2` para las siguientes secciones:
 * proyectos: pueden andar ingenieros con experiencia y también abogados jóvenes.
 * logística: pueden andar profesionales que o bien sean jóvenes o bien hayan trabajado en Omni.
 
-Se pide agregar a los postlantes `Fulgencio` y `Clotilde` tales que:
+Se pide agregar a los postulantes `Fulgencio` y `Clotilde` tales que:
 
 * Fulgencio pueda andar para proyectos pero no para logística
 * Clotilde pueda andar para ventas pero no para contaduría.
