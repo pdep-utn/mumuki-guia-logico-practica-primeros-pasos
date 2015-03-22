@@ -13,7 +13,7 @@ Escribir un programa Prolog que modele a esta empresa, tal que puedan responders
 (Decimos que a puede darle órdenes a b si y sólo si trabajan en el mismo departamento y a tiene un cargo
 superior a b. Se considera que “empleado” es un cargo superior a “cadete”.)
 
-Para tal fin se deberán definir los siguientes predicados:
+Para tal fin se deberán definir los siguientes predicados (no olvidar definir la base de conocimiento):
 
 # trabajaEn/2
 
