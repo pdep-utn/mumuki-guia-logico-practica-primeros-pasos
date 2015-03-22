@@ -72,15 +72,15 @@ Se pide agregar a los postulantes `Fulgencio` y `Clotilde` tales que:
 
 A partir de esta base:
 
-	Indicar qué predicados aparecen en este programa, y para cada uno si está definido por extensión, por comprensión, o en forma mixta.
+1. Indicar qué predicados aparecen en este programa, y para cada uno si está definido por extensión, por comprensión, o en forma mixta.
 	(Ej: aparecePredicado(puedeAndar, comprension).)
 
-	Para cada una de estas consultas, pensar si la respuesta de Prolog va a ser "sí" o "no", justificando si es "no". Verificar después con el SWI Prolog.
-		* Roque ¿puede andar para comercio exterior?
-		* Ana ¿puede andar para comercio exterior?
-		* Lucía ¿puede andar para comercio exterior?
-		* Roque ¿puede andar para contaduría?
-		* Roque ¿puede andar para ventas?
-		* Lucía ¿puede andar para ventas?
+2. Para cada una de estas consultas, pensar si la respuesta de Prolog va a ser "sí" o "no", justificando si es "no". Verificar después con el SWI Prolog.
+	* Roque ¿puede andar para comercio exterior?
+	* Ana ¿puede andar para comercio exterior?
+	* Lucía ¿puede andar para comercio exterior?
+	* Roque ¿puede andar para contaduría?
+	* Roque ¿puede andar para ventas?
+	* Lucía ¿puede andar para ventas?
 	(Ej: comercioExterior(roque, si).)
 
