@@ -58,13 +58,24 @@ ambicioso(cecilia).
 habla(cecilia,frances)
 ```
 
-Se pide agregar las cláusulas de `puedeAndar/2` para las siguientes secciones:
+A partir de esta base:
+	a. Indicar qué predicados aparecen en este programa, y para cada uno si está definido por extensión, por comprensión, o en forma mixta.
+	(Ej: aparecePredicado(puedeAndar, comprension).)
 
-* proyectos: pueden andar ingenieros con experiencia y también abogados jóvenes.
-* logística: pueden andar profesionales que o bien sean jóvenes o bien hayan trabajado en Omni.
+	b. Para cada una de estas consultas, pensar si la respuesta de Prolog va a ser "sí" o "no", justificando si es "no". Verificar después con el SWI Prolog.
+		* Roque ¿puede andar para comercio exterior?
+		* Ana ¿puede andar para comercio exterior?
+		* Lucía ¿puede andar para comercio exterior?
+		* Roque ¿puede andar para contaduría?
+		* Roque ¿puede andar para ventas?
+		* Lucía ¿puede andar para ventas?
+	(Ej: comercioExterior(roque, si).)
 
-Se pide agregar a los postulantes `Fulgencio` y `Clotilde` tales que:
+	c. Agregar la información para las búsquedas de estas secciones:
+		* Proyectos: pueden andar ingenieros con experiencia y también abogados jóvenes.
+		* Logística: pueden andar profesionales que o bien sean jóvenes o bien hayan trabajado en Omni.
 
-* Fulgencio pueda andar para proyectos pero no para logística
-* Clotilde pueda andar para ventas pero no para contaduría.
-
+	d. Agregar postulantes tales que:
+		* Uno pueda andar para proyectos pero no para logística. (Utilizar el nomnbre juan)
+		* Otro pueda andar para ventas pero no para contaduría. (Utilizar el nomnbre maria)
+	En este punto, sólo vale agregar cláusulas a la definición de predicados definidos totalmente por extensión en el programa original.
