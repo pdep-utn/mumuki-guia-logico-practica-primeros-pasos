@@ -58,6 +58,18 @@ ambicioso(cecilia).
 habla(cecilia,frances)
 ```
 
+Se pide agregar las cláusulas de `puedeAndar/2` para las siguientes secciones:
+
+* proyectos: pueden andar ingenieros con experiencia y también abogados jóvenes.
+* logística: pueden andar profesionales que o bien sean jóvenes o bien hayan trabajado en Omni.
+
+Se pide agregar a los postulantes `Fulgencio` y `Clotilde` tales que:
+
+* Fulgencio pueda andar para proyectos pero no para logística
+* Clotilde pueda andar para ventas pero no para contaduría.
+
+## Y finalmente... algo de teoría:
+
 A partir de esta base:
 	a. Indicar qué predicados aparecen en este programa, y para cada uno si está definido por extensión, por comprensión, o en forma mixta.
 	(Ej: aparecePredicado(puedeAndar, comprension).)
@@ -71,11 +83,3 @@ A partir de esta base:
 		* Lucía ¿puede andar para ventas?
 	(Ej: comercioExterior(roque, si).)
 
-	c. Agregar la información para las búsquedas de estas secciones:
-		* Proyectos: pueden andar ingenieros con experiencia y también abogados jóvenes.
-		* Logística: pueden andar profesionales que o bien sean jóvenes o bien hayan trabajado en Omni.
-
-	d. Agregar postulantes tales que:
-		* Uno pueda andar para proyectos pero no para logística. (Utilizar el nomnbre juan)
-		* Otro pueda andar para ventas pero no para contaduría. (Utilizar el nomnbre maria)
-	En este punto, sólo vale agregar cláusulas a la definición de predicados definidos totalmente por extensión en el programa original.
