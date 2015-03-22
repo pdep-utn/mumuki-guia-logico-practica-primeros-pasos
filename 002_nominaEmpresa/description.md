@@ -10,8 +10,8 @@ Escribir un programa Prolog que modele a esta empresa, tal que puedan responders
 * Dadas dos personas, ¿trabajan en el mismo departamento?
 * Dadas dos personas A y B, ¿puede A darle órdenes a B?
 
-(Decimos que a puede darle órdenes a b si y sólo si trabajan en el mismo departamento y a tiene un cargo
-superior a b. Se considera que “empleado” es un cargo superior a “cadete”.)
+(Decimos que A puede darle órdenes a B si y sólo si trabajan en el mismo departamento y A tiene un cargo
+superior a B. Se considera que “empleado” es un cargo superior a “cadete”.)
 
 Para tal fin se deberán definir los siguientes predicados (no olvidar definir la base de conocimiento):
 
