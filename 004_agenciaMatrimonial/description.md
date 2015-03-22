@@ -12,7 +12,7 @@ La agencia tiene esta información.
 * Pedro es reflexivo.
 * José es melancólico.
 
-Se pide codificar los siguientes predicados:
+Se pide codificar la base de conocimiento y los siguientes predicados:
 
 ## `esCompatibleCon/2`
 
