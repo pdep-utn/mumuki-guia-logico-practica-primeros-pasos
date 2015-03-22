@@ -30,7 +30,7 @@ false.
 
 ```
 
-## `esDeseable`
+## `esDeseable/1`
 
 sabiendo que una persona es deseable si es compatible con, por lo menos, dos personas distintas.
 
