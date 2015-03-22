@@ -13,6 +13,7 @@ La información es esta:
 A la fiesta pueden ir: Nico, Daniel, y los alumnos de alguien que puede ir.
 Como las chicas insistieron, también pueden ir los carilindos.
 
+Se pide generar la base de conocimiento necesaria y codificar el siguiente predicado:
 
 ## `puedeIr/1`
 
