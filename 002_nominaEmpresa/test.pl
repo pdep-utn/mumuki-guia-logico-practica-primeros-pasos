@@ -1,87 +1,43 @@
-puedeAndar(comercioExterior,Persona):- habla(ingles,Persona),
-                                       habla(frances,Persona), 
-                                       profesional(Persona).
+test(maria_trabaja_en_ventas) :-
+  trabajaEn(maria, X),
+  assertion(X == ventas).
+  
+test(juan_trabaja_en_ventas) :-
+  trabajaEn(juan, X),
+  assertion(X == ventas).
+  
+test(nora_trabaja_en_compras) :-
+  trabajaEn(nora, X),
+  assertion(X == compras).
+  
+  
+test(ana_trabaja_en_administracion) :-
+  trabajaEn(ana, X),
+  assertion(X == administracion).
 
-puedeAndar(comercioExterior,Persona):- ambicioso(Persona).
+test(maria_trabaja_con_juan) :-
+  trabajaCon(maria, juan).
+  
+test(maria_trabaja_con_roque) :-
+  trabajaCon(maria, roque).
 
-puedeAndar(contaduria,Persona):- contador(Persona),
-                                 honesto(Persona).
+test(felipe_no_trabaja_con_roque) :-
+  \+ trabajaCon(felipe, roque).
 
-puedeAndar(ventas,Persona):- ambicioso(Persona),
-                             conExperiencia(Persona).
+test(felipe_no_trabaja_con_pedro) :-
+  \+ trabajaCon(felipe, pedro).
 
-puedeAndar(ventas,lucia).
+test(felipe_no_puede_dar_ordenes_a_pedro) :-
+  \+ puedeDarOrdenes(felipe, pedro).
 
-profesional(Persona):- contador(Persona).
-profesional(Persona):- abogado(Persona).
-profesional(Persona):- ingeniero(Persona).
 
-ambicioso(Persona):- contador(Persona), joven(Persona).
+test(felipe_no_puede_dar_ordenes_a_pedro) :-
+  \+ puedeDarOrdenes(felipe, pedro).
+  
 
-conExperiencia(Persona):- trabajoEn(Persona,_).
+test(pedro_no_puede_dar_ordenes_a_nora) :-
+  \+ puedeDarOrdenes(pedro, nora).
 
-%Roque
 
-contador(roque).
-joven(roque).
-trabajoEn(roque,acme).
-habla(roque,frances).
-honesto(roque).
-
-%Ana
-
-ingeniero(ana).
-habla(ana,ingles).
-habla(ana,frances).
-trabajoEn(ana,omni).
-
-%Lucia
-
-habla(lucia,ingles).
-habla(lucia,frances).
-trabajoEn(lucia,omni).
-
-%Cecilia
-
-abogado(cecilia).
-ambicioso(cecilia).
-habla(cecilia,frances)
-
-%Magolla
-
-abogado(magolla).
-joven(magolla).
-
-%Tests
-
-test(test_puedeAndar_proyectos_ana):-
-puedeAndar(proyectos,ana).
-
-test(test_puedeAndar_proyectos_magolla):-
-puedeAndar(proyectos,magolla).
-
-test(test_no_puedeAndar_proyectos_roque):-
-not(puedeAndar(proyectos,roque)).
-
-test(test_no_puedeAndar_proyectos_lucia):-
-not(puedeAndar(proyectos,lucia)).
-
-test(test_puedeAndar_logistica_ana):-
-puedeAndar(logistica,ana).
-
-test(test_puedeAndar_logistica_roque):-
-puedeAndar(logistica,roque).
-
-test(test_no_puedeAndar_logistica_lucia):-
-not(puedeAndar(logistica,lucia)).
-
-test(test_no_puedeAndar_logistica_cecilia):-
-not(puedeAndar(logistica,cecilia)).
-
-test(test_fulgencio_proyectosSi_logisticaNo):-
-puedeAndar(proyectos,fulgencio),
-not(puedeAndar(logistica,fulgencio)).
-
-test(test_clotilde_ventasSi_contaduriaNo):-
-puedeAndar(ventas,clotilde),
-not(puedeAndar(contaduria,clotilde)).
+test(nora_puede_dar_ordenes_a_pedro) :-
+  \+ puedeDarOrdenes(nora, pedro).
