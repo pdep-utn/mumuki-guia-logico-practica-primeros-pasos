@@ -15,14 +15,6 @@ superior a B. Se considera que “empleado” es un cargo superior a “cadete�
 
 Para tal fin se deberán definir los siguientes predicados (no olvidar definir la base de conocimiento):
 
-## `trabajaEn/2`
-
-que relaciona a una persona con el departamento en el que trabaja.
-
-## `trabajaCon/2`
-
-que relaciona a dos personas que trabajan en el mismo departamento.
-
-## `puedeDarOrdenes/2`
-
-que relaciona a dos personas tales que la primera puede darle órdenes a la segunda
+* `trabajaEn/2`: relaciona a una persona con el departamento en el que trabaja.
+* `trabajaCon/2`: que relaciona a dos personas que trabajan en el mismo departamento.
+* `puedeDarOrdenes/2`: que relaciona a dos personas tales que la primera puede darle órdenes a la segunda
