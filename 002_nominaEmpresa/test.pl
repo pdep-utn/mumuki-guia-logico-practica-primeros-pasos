@@ -40,4 +40,8 @@ test(pedro_no_puede_dar_ordenes_a_nora) :-
 
 
 test(nora_puede_dar_ordenes_a_pedro) :-
-  \+ puedeDarOrdenes(nora, pedro).
+  puedeDarOrdenes(nora, pedro).
+
+
+test(maria_puede_dar_ordenes_a_roque) :-
+  puedeDarOrdenes(maria, roque).
