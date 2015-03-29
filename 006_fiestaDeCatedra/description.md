@@ -10,12 +10,7 @@ La información es esta:
 * Brad, Leo y Johnny son carilindos.
 * Luciano y Lautaro son simpáticos. 
 
-A la fiesta pueden ir: Nico, Daniel, y los alumnos de alguien que puede ir.
-Como las chicas insistieron, también pueden ir los carilindos.
+A la fiesta pueden ir: Nico, Daniel, y los alumnos de alguien que puede ir. Como las chicas insistieron, también pueden ir los carilindos.
 
-Se pide generar la base de conocimiento necesaria utilizando los predicados `alumno/2`, `carilindo/1`, `simpatico/1` y codificar el siguiente predicado:
-
-## `puedeIr/1`
-
-que se verifica para una persona si ésta puede ir a la fiesta 
+Se pide generar la base de conocimiento necesaria utilizando los predicados `alumno/2`, `carilindo/1`, `simpatico/1` y codificar el predicado `puedeIr/1`, que se verifica para una persona si ésta puede ir a la fiesta 
 
