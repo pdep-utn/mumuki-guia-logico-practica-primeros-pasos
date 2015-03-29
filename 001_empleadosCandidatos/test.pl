@@ -13,8 +13,8 @@ puedeAndar(logistica,ana).
 test(test_puedeAndar_logistica_roque):-
 puedeAndar(logistica,roque).
 
-test(test_no_puedeAndar_logistica_lucia):-
-not(puedeAndar(logistica,lucia)).
+test(puedeAndar_logistica_lucia):-
+puedeAndar(logistica,lucia).
 
 test(test_no_puedeAndar_logistica_cecilia):-
 not(puedeAndar(logistica,cecilia)).
