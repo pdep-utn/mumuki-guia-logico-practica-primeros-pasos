@@ -13,7 +13,7 @@ test(a_pablo_le_atrae_el_azul):-
 
 
 test(a_pablo_le_atrae_el_rojo):-
-  leAtrae(pablo, rojo).
+  atraeA(pablo, rojo).
 
 test(a_pablo_NO_le_atrae_el_lila):-
   \+ atraeA(pablo, lila).
