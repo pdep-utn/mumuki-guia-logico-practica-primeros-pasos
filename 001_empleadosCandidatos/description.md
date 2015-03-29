@@ -53,8 +53,8 @@ Modificar el programa dado:
 
 * agregando las cláusulas de `puedeAndar/2` para las siguientes secciones:
   * proyectos: pueden andar ingenieros con experiencia y también abogados jóvenes.
-  * logística: pueden andar profesionales que o bien sean jóvenes o bien hayan trabajado en Omni.
-* agregando a los postulantes `Fulgencio` y `Clotilde` tales que:
+  * logística: pueden andar profesionales que sean jóvenes o hayan trabajado en Omni.
+* agregando a los postulantes `fulgencio` y `clotilde` tales que:
   * Fulgencio pueda andar para proyectos pero no para logística
   * Clotilde pueda andar para ventas pero no para contaduría.
 
