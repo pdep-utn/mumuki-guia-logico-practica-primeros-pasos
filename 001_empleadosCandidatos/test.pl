@@ -1,12 +1,11 @@
-%Tests
 test(test_puedeAndar_proyectos_ana):-
-puedeAndar(proyectos,ana).
+  puedeAndar(proyectos,ana).
 
 test(test_no_puedeAndar_proyectos_roque):-
-not(puedeAndar(proyectos,roque)).
+  not(puedeAndar(proyectos,roque)).
 
 test(test_no_puedeAndar_proyectos_lucia):-
-not(puedeAndar(proyectos,lucia)).
+ not(puedeAndar(proyectos,lucia)).
 
 test(test_puedeAndar_logistica_ana):-
 puedeAndar(logistica,ana).
@@ -46,7 +45,7 @@ test(ana_puede_andar_en_comercio_exterior):-
 	puedeAndar(comercioExterior, ana).
 
 test(fulgencio_puede_andar_en_proyectos):-
-	puedeAndar(proyectos, fulgencio)
+	puedeAndar(proyectos, fulgencio).
 
 test(clotilde_puede_andar_en_ventas):-
 	puedeAndar(ventas, clotilde).
