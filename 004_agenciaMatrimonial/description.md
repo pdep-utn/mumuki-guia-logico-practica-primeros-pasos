@@ -14,11 +14,7 @@ La agencia tiene esta información.
 
 Se pide codificar la base de conocimiento y los siguientes predicados:
 
-## `esCompatibleCon/2`
-
-que relaciona a dos personas que son compatibles.
-
-Por ejemplo:
+* `esCompatibleCon/2`: que relaciona a dos personas que son compatibles. Por ejemplo:
 
 ```prolog
 
@@ -30,11 +26,7 @@ false.
 
 ```
 
-## `esDeseable/1`
-
-sabiendo que una persona es deseable si es compatible con, por lo menos, dos personas distintas.
-
-Por ejemplo: 
+* `esDeseable/1`: sabiendo que una persona es deseable si es compatible con, por lo menos, dos personas distintas. Por ejemplo: 
 
 ```prolog
 
