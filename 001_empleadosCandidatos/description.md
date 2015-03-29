@@ -19,10 +19,13 @@ profesional(Persona):- contador(Persona).
 profesional(Persona):- abogado(Persona).
 profesional(Persona):- ingeniero(Persona).
 
-ambicioso(Persona):- contador(Persona), joven(Persona).
+ambicioso(Persona):-
+	contador(Persona), 
+ 	joven(Persona).
 ambicioso(cecilia).
 
-conExperiencia(Persona):- trabajoEn(Persona,_).
+conExperiencia(Persona):- 
+	trabajoEn(Persona,_).
 
 trabajoEn(roque,acme).
 trabajoEn(ana,omni).
@@ -35,7 +38,7 @@ habla(ana,ingles).
 habla(ana,frances).
 habla(lucia,ingles).
 habla(lucia,frances).
-habla(cecilia,frances)
+habla(cecilia,frances).
 
 contador(roque).
 
@@ -48,7 +51,7 @@ abogado(cecilia).
 
 Modificar el programa dado:
 
-* agregand las cláusulas de `puedeAndar/2` para las siguientes secciones:
+* agregando las cláusulas de `puedeAndar/2` para las siguientes secciones:
   * proyectos: pueden andar ingenieros con experiencia y también abogados jóvenes.
   * logística: pueden andar profesionales que o bien sean jóvenes o bien hayan trabajado en Omni.
 * agregando a los postulantes `Fulgencio` y `Clotilde` tales que:
