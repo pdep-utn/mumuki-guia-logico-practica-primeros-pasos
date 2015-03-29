@@ -31,24 +31,11 @@ test(test_clotilde_ventasSi_contaduriaNo):-
 puedeAndar(ventas,clotilde),
 not(puedeAndar(contaduria,clotilde)).
 
-
-test(puede_andar_forma_mixta):-
-	aparecePredicado(puedeAndar, mixto).
-
-test(profesional_forma_extensión):-
-	aparecePredicado(profesional, extensión).	
-
-test(ambicioso_forma_comprensión):-
-	aparecePredicado(ambicioso, comprensión).
-
-test(conExperiencia_forma_comprensión):-
-	aparecePredicado(conExperiencia, comprensión).		
-
 test(roque_puede_andar_en_comercio_exterior):-
-	comercioExterior(roque, si).
+	puedeAndar(comercioExterior, roque).
 
 test(roque_puede_andar_en_contaduria):-
-	contaduria(roque, si).
+	puedeAndar(contaduria, roque).
 
 test(roque_puede_andar_en_ventas):-
 	ventas(roque, si).
