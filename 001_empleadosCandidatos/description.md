@@ -2,8 +2,8 @@ Una empresa está buscando candidatos para varios de sus sectores. Y tenemos el 
 
 ```prolog
 puedeAndar(comercioExterior,Persona):- 
-	habla(ingles,Persona),
-	habla(frances,Persona), 
+	habla(Persona, ingles),
+	habla(Persona, frances), 
 	profesional(Persona).
 puedeAndar(comercioExterior,Persona):- 
 	ambicioso(Persona).
