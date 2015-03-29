@@ -14,7 +14,7 @@ test(test_no_esCompatibleCon_juana_jose):-
 not(esCompatibleCon(juana,jose)).
 
 test(test_esDeseable_juan):-
-esDeseable(Juan).
+esDeseable(juan).
 
 test(test_no_esDeseable_pedro):-
 not(esDeseable(pedro)).
