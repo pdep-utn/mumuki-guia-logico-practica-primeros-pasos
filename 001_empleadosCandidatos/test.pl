@@ -38,13 +38,19 @@ test(roque_puede_andar_en_contaduria):-
 	puedeAndar(contaduria, roque).
 
 test(roque_puede_andar_en_ventas):-
-	ventas(roque, si).
+	puedeAndar(ventas, roque).
 
 test(lucia_no_puede_andar_en_comercio_exterior):-
-	comercioExterior(lucia, no).
+	\+ puedeAndar(comercioExterior, lucia).
 
 test(lucia_puede_andar_en_ventas):-
-	ventas(lucia, si).
+	puedeAndar(ventas, lucia).
 
 test(ana_puede_andar_en_comercio_exterior):-
-	comercioExterior(ana, si).
+	puedeAndar(comercioExterior, ana).
+
+test(fulgencio_puede_andar_en_proyectos):-
+	puedeAndar(proyectos, fulgencio)
+
+test(clotilde_puede_andar_en_ventas):-
+	puedeAndar(ventas, clotilde).
