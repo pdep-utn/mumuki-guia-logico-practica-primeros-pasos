@@ -2,6 +2,8 @@ En la Universidad Tautológica Neandertal, un profesor desea darles un ejercicio
 Sin embargo, al ver las pilas de parciales y TP que aún adeuda corregir, comienza a abandonar la idea cuando, de repente, la inspiración viene hacia él y finalmente decide utilizar justamente un programa en Prolog para acelerar las correciones, dado que éste lenguaje es muy cómodo para chequear que las respeustas sean verdaderas (correctas) o falsas(erróneas).
 
 El ejercicio que les da a sus alumnos es el siguiente:
+
+-----------------------------------------------------------
 	
 *Dado el siguiente programa*
 
@@ -25,6 +27,8 @@ c) ?- gustaDe(X,zulema).
 d) ?- gustaDe(marcos,X).
 e) ?- compiten(luis,X).
 ```
+
+----------------------------------------------------------------
 
 Pero como en la Universidad Tecnológica Nacional (una vil copia de la auténtica UTN) no quieren ser menos, ellos deciden codificar un predicado que responda a todas estas preguntas y demostrar que saben más:
 
