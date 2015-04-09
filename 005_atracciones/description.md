@@ -16,14 +16,13 @@ gustaDe(juan,nuria).
 compiten(Chico,Competidor):- gustaDe(Chico,Chica), gustaDe(Competidor,Chica), Chico\=Competidor.
 ```
 
-* Determinar con cuáles de las cláusulas unifica cada una de las consultas de acá abajo. En cada caso que una
-cláusula unifica con una consulta, indicar qué variables se ligan y con qué átomos.
+* Determinar con qué átomos se liga en cada caso la variable X.
 
 ```prolog
-a) ?- gustaDe(luis,A).
-b) ?- gustaDe(juan,A).
-c) ?- gustaDe(A,zulema).
-d) ?- gustaDe(marcos,A).
+a) ?- gustaDe(luis,X).
+b) ?- gustaDe(juan,X).
+c) ?- gustaDe(X,zulema).
+d) ?- gustaDe(marcos,X).
 e) ?- compiten(luis,X).
 ```
 
@@ -35,10 +34,31 @@ que, por extensión, relaciona a cada letra (a,b,c...) de cada pregunta con su r
 
 Por ejemplo:
 
+Al ejecutar la consulta a):
+
+```prolog
+?- gustaDe(luis,X).
+```
+Prolog nos responde:
+
+```prolog
+?- gustaDe(luis,X).
+X = nora.
+```
+Por lo cual debemos asociar la pregunta a) con la respuesta "nora" definiendo el hecho:
+
+```prolog
+respuesta(a,nora).
+```
+Para que al consultar con respeustas concretas de alumnos obtengamos:
+
 ```prolog
 ?- respuesta(a,nora).
 true.
+?- respuesta(a,luis).
+false.
 ```
+Ya que la respuesta correcta es "nora" y "luis" es una respuesta errónea.
 
 (NOTA: si una consulta liga con varios átomos -por inversibilidad- se deben indicar todos ellos).
 
