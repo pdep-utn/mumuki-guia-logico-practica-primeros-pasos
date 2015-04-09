@@ -3,7 +3,7 @@ Sin embargo, al ver las pilas de parciales y TP que aún adeuda corregir, comien
 
 El ejercicio que les da a sus alumnos es el siguiente:
 	
-Dado el siguiente programa
+*Dado el siguiente programa*
 
 ```prolog
 gustaDe(luis,nora).
@@ -16,7 +16,7 @@ gustaDe(juan,nuria).
 compiten(Chico,Competidor):- gustaDe(Chico,Chica), gustaDe(Competidor,Chica), Chico\=Competidor.
 ```
 
-* Determinar con qué átomos se liga en cada caso la variable X.
+* *Determinar con qué átomos se liga en cada caso la variable X.*
 
 ```prolog
 a) ?- gustaDe(luis,X).
