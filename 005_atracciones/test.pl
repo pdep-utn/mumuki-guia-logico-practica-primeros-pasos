@@ -1,23 +1,16 @@
 test(test_rta_b):-
-findall(Respuesta,respuesta(b,Respuesta),Respuestas),
-member(nora,Respuestas),
-member(ana,Respuestas),
-member(nuria,Respuestas),
-member(zulema,Respuestas).
+forall(member(Respuesta, [nora, ana, nuria, zulema]), respuesta(b, Respuesta)).
 
 test(test_rta_c):-
-findall(Respuesta,respuesta(c,Respuesta),Respuestas),
-member(marcos,Respuestas),
-member(roque,Respuestas),
-member(juan,Respuestas).
+forall(member(Respuesta, [marcos, roque, juan]), respuesta(c, Respuesta)),
+not(respuesta(c,luis)).
 
 test(test_rta_d):-
-findall(Respuesta,respuesta(d,Respuesta),Respuestas),
-member(zulema,Respuestas).
+respuesta(d,zulema),
+not((respuesta(d,Respuesta), Respuesta\= zulema)).
 
 test(test_rta_e):-
-findall(Respuesta,respuesta(e,Respuesta),Respuestas),
-member(roque,Respuestas),
-member(juan,Respuestas),
-
-
+respuesta(e,roque),
+respuesta(e,juan),
+not(respuesta(e, luis)),
+not(respuesta(e, marcos)).
