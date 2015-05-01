@@ -3,6 +3,7 @@ language: prolog
 order:
 - 1
 - 10
+- 20
 - 2
 - 3
 - 4
