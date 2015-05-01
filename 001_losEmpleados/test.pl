@@ -1,5 +1,5 @@
 test(ana_es_ingeniero, [nondet]) :-
-  ingniero(ana).
+  ingeniero(ana).
 
 test(roque_es_contador, [nondet]) :-
   contador(roque).
