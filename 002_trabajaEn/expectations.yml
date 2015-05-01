@@ -1,8 +1,6 @@
 expectations:
 - binding: empleado
   inspection: HasBinding
-- binding: empleado
-  inspection: HasArity:3
 - binding: trabajaEn
   inspection: HasBinding
 - binding: trabajaEn
