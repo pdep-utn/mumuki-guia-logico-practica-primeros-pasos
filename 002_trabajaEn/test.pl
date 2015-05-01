@@ -1,20 +1,20 @@
 test(maria_trabaja_en_ventas, [nondet]) :-
-  trabajaEn(maria, ventas).
+  trabajaEn(ventas, maria).
 
 test(juan_trabaja_en_ventas, [nondet]) :-
-  trabajaEn(juan, ventas).
+  trabajaEn(ventas, juan).
 
 test(nora_trabaja_en_compras, [nondet]) :-
-  trabajaEn(nora, compras).
+  trabajaEn(compras, nora).
 
 test(ana_trabaja_en_administracion, [nondet]) :-
-  trabajaEn(ana, administracion).
+  trabajaEn(administracion, ana).
 
 test(ana_trabaja_en_administracion, [nondet]) :-
-  trabajaEn(hugo, administracion).
+  trabajaEn(administracion, hugo).
 
 test(un_desconocido_no_trabaja_en_ningun_departamento) :-
-  \+ trabajaEn(sherlock, _).
+  \+ trabajaEn(_, sherlock).
 
 test(nora_no_trabaja_en_ventas) :-
-  \+ trabajaEn(nora, ventas).
+  \+ trabajaEn(ventas, nora).
