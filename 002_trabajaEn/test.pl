@@ -10,7 +10,7 @@ test(nora_trabaja_en_compras, [nondet]) :-
 test(ana_trabaja_en_administracion, [nondet]) :-
   trabajaEn(administracion, ana).
 
-test(ana_trabaja_en_administracion, [nondet]) :-
+test(hugo_trabaja_en_administracion, [nondet]) :-
   trabajaEn(administracion, hugo).
 
 test(un_desconocido_no_trabaja_en_ningun_departamento) :-
