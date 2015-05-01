@@ -1,0 +1,13 @@
+¡Tenemos nuevos sectores!: proyectos y logística. Y queremos saber qué empleandos pueden servir para cada uno de ellos. Se sabe que:
+
+* proyectos: pueden andar ingenieros con experiencia y también abogados jóvenes.
+* logística: pueden andar profesionales (ingenieros o abogados) que sean jóvenes o tengan experiencia.
+
+Además se sabe que:
+
+* Fulgencio pueda andar para proyectos pero no para logística
+* Clotilde pueda andar para ventas pero no para contaduría.
+
+Asumir que la base de conocimiento ya contiene algunos otros empleados, con hechos de la forma: `conExperiencia/1`, `joven/1`, `ingeniero/1`, `abogado/1`
+
+Agregar las nuevas clausulas al predicado `puedeAndar/2`.

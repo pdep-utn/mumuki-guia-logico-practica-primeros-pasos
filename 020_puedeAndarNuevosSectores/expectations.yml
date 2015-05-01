@@ -1,0 +1,15 @@
+expectations:
+- binding: puedeAndar
+  inspection: HasArity:2
+- binding: puedeAndar
+  inspection: HasUsage:profesional
+- binding: profesional
+  inspection: HasBinding
+- binding: conExperiencia
+  inspection: Not:HasBinding
+- binding: joven
+  inspection: Not:HasBinding
+- binding: ingeniero
+  inspection: Not:HasBinding
+- binding: abogado
+  inspection: Not:HasBinding

@@ -1,0 +1,5 @@
+expectations:
+- binding: trabajaCon
+  inspection: HasBinding
+- binding: trabajaCon
+  inspection: HasUsage:trabajaEn
