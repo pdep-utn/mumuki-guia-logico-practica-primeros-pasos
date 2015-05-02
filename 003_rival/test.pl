@@ -13,11 +13,11 @@ test(argentina_es_rival_de_escocia, [nondet]):-
 test(argentina_no_es_rival_de_argentina, [nondet]):-
   \+ rival(argentina,argentina).
 
-test(jamica_es_rival_de_italia):-
-  rival(jamica, italia).
+test(jamaica_es_rival_de_italia):-
+  rival(jamaica, italia).
 
-test(jamica_es_rival_de_colombia):-
-  rival(jamica, colombia).
+test(jamaica_es_rival_de_colombia):-
+  rival(jamaica, colombia).
 
 test(camerun_no_es_rival_de_argentina):-
   \+ rival(camerun, argentina).
