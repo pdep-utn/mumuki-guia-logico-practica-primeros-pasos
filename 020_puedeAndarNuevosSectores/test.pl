@@ -1,13 +1,3 @@
-* proyectos: pueden andar ingenieros con experiencia y
-también abogados jóvenes.
-* logística: pueden andar profesionales (ingenieros o abogados)
- que sean jóvenes o tengan experiencia.
-
-Además se sabe que:
-
-* Fulgencio pueda andar para proyectos pero no para logística
-* Clotilde pueda andar para ventas.
-
 test(un_ingeniero_con_experiencia_puedeAndar_proyectos).
   \+ puedeAndar(proyectos, teseo).
 
