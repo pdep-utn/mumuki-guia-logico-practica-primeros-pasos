@@ -4,12 +4,12 @@ Queremos ayudar a una agencia matrimonial a armar parejas. La agencia tiene esta
 * Las mujeres decididas son compatibles con los varones reflexivos.
 * Las mujeres soñadoras son compatibles con los varones decididos.
 
-Desarrollar `esCompatibleCon/2`: que relaciona a una mujer y un hombre cuando son compatibles. Debe ser inversible.
+Desarrollar `esCompatible/2`: que relaciona a una mujer y un hombre cuando son compatibles. Debe ser inversible.
 
 Ejemplo de uso (suponiendo que que Maria y Juan sean compatibles):
 
 ```prolog
-?- esCompatibleCon(maria,juan).
+?- esCompatible(maria,juan).
 true.
 
 ```

@@ -19,7 +19,7 @@ test(mujeres_decididas_no_son_compatibles_con_hombres_no_reflexivos) :-
 test(mujeres_soniadoras_no_son_compatibles_con_hombres_no_decididos) :-
   \+ esCompatible(isabel, ernesto).
 
-test(esCompatible_es_inversible_para_su_primer_parametro) :-
+test(esCompatible_es_inversible_para_su_primer_parametro, [nondet]) :-
   findall(M, esCompatible(M, mario), Mujeres),
   member(sharon, Mujeres),
   member(isabel, Mujeres).
