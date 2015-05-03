@@ -6,6 +6,6 @@ honesto(jose).
 ambicioso(maria).
 ambicioso(raul).
 
-trabajo(maria, utn).
-trabajo(jose, utn).
+trabajoEn(maria, utn).
+trabajoEn(jose, utn).
 
