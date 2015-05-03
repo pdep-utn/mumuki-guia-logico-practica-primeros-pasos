@@ -1,19 +1,19 @@
-test(un_ingeniero_con_experiencia_puedeAndar_proyectos).
+test(un_ingeniero_con_experiencia_puedeAndar_proyectos) :-
   \+ puedeAndar(proyectos, teseo).
 
-test(un_desconocido_no_puede_andar_proyectos).
+test(un_desconocido_no_puede_andar_proyectos) :-
   \+ puedeAndar(proyectos, toto).
 
-test(un_ingeniero_sin_experiencia_no_puedeAndar_proyectos).
+test(un_ingeniero_sin_experiencia_no_puedeAndar_proyectos) :-
   \+ puedeAndar(proyectos, roberto).
 
-test(un_abogado_no_joven_no_puedeAndar_proyectos).
+test(un_abogado_no_joven_no_puedeAndar_proyectos) :-
   \+ puedeAndar(proyectos, mariaAzul).
 
-test(clotilde_no_puedeAndar_logistica).
+test(clotilde_no_puedeAndar_logistica) :-
   puedeAndar(ventas, clotilde).
 
-test(fulgencio_no_puedeAndar_logistica).
+test(fulgencio_no_puedeAndar_logistica) :-
   \+ puedeAndar(logistica, fulgencio).
 
 test(un_ingeniero_sin_esperiencia_o_juventud_no_puedeAndar_logistica) :-
