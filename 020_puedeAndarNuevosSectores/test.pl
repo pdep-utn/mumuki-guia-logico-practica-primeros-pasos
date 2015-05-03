@@ -1,5 +1,5 @@
-test(un_ingeniero_con_experiencia_puedeAndar_proyectos) :-
-  \+ puedeAndar(proyectos, teseo).
+test(un_ingeniero_con_experiencia_puedeAndar_proyectos, [nondet]) :-
+  puedeAndar(proyectos, teseo).
 
 test(un_desconocido_no_puede_andar_proyectos) :-
   \+ puedeAndar(proyectos, toto).
