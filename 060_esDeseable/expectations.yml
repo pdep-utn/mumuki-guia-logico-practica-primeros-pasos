@@ -1,0 +1,5 @@
+expectations:
+- binding: esDeseable
+  inspection: HasBinding
+- binding: esCompatible
+  inspection: Not:HasBinding
