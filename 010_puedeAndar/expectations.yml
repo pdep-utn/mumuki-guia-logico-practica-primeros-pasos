@@ -7,11 +7,7 @@ expectations:
   inspection: Not:HasBinding
 - binding: trabajoEn
   inspection: Not:HasBinding
-- binding: puedeAndar
-  inspection: HasArity:2
 - binding: tieneExperiencia
   inspection: HasBinding
-- binding: tieneExperiencia
-  inspection: HasArity:1
 - binding: puedeAndar
   inspection: HasUsage:tieneExperiencia
