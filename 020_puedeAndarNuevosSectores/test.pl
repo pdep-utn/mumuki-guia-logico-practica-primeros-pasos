@@ -10,7 +10,7 @@ test(un_ingeniero_sin_experiencia_no_puedeAndar_proyectos) :-
 test(un_abogado_no_joven_no_puedeAndar_proyectos) :-
   \+ puedeAndar(proyectos, mariaAzul).
 
-test(clotilde_no_puedeAndar_logistica) :-
+test(clotilde_no_puedeAndar_logistica, [nondet]) :-
   puedeAndar(ventas, clotilde).
 
 test(fulgencio_no_puedeAndar_logistica) :-
@@ -19,10 +19,10 @@ test(fulgencio_no_puedeAndar_logistica) :-
 test(un_ingeniero_sin_esperiencia_o_juventud_no_puedeAndar_logistica) :-
   \+ puedeAndar(logistica, beatriz).
 
-test(un_ingeniero_joven_puedeAndar_logistica) :-
+test(un_ingeniero_joven_puedeAndar_logistica, [nondet]) :-
   puedeAndar(logistica, roberto).
 
-test(un_abogado_conExperiencia_puedeAndar_logistica) :-
+test(un_abogado_conExperiencia_puedeAndar_logistica, [nondet]) :-
   puedeAndar(logistica, mariaAzul).
 
 test(no_puedeAndar_logistica_si_no_es_profesional) :-
