@@ -10,4 +10,4 @@ Además se sabe que:
 
 Asumir que la base de conocimiento ya contiene algunos otros empleados, con hechos de la forma: `conExperiencia/1`, `joven/1`, `ingeniero/1`, `abogado/1`
 
-Agregar las nuevas clausulas al predicado `puedeAndar/2`.
+Codificar las nuevas clausulas del predicado `puedeAndar/2`, que relaciona a un sector con un empleado. 
