@@ -5,4 +5,3 @@ expectations:
   inspection: HasUsage:trabajaEn
 - binding: trabajaCon
   inspection: Not:HasUsage:Not
-  hidden: true
