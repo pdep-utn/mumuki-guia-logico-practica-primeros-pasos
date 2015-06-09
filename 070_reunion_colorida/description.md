@@ -9,6 +9,7 @@ Incluir en el programa la siguiente información:
 Y desarrollar `puedeIluminarseCon/2`, que relaciona un día de reunión y un color, cuando ésta puede ser iluminada con dicho color. Debe ser inversible su segundo parámetro (el color).
 
 Asumir que los siguientes predicados ya existen:
+
   * `atraeA`: relaciona una persona con un color
   * `esMayor`
   * `mujer`, `varon`
