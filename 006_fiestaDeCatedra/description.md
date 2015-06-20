@@ -12,5 +12,10 @@ La información es esta:
 
 A la fiesta pueden ir: Nico, Daniel, y los alumnos de alguien que puede ir. Como las chicas insistieron, también pueden ir los carilindos.
 
-Se pide generar la base de conocimiento necesaria utilizando los predicados `alumno/2`, `carilindo/1`, `simpatico/1` y codificar el predicado `puedeIr/1`, que se verifica para una persona si ésta puede ir a la fiesta 
+Se pide generar la base de conocimiento necesaria definiendo los predicados 
+
+* `carilindo/1` y `simpatico/1`: dicen si alguien es carilindo o simpático, respectivamente
+* `alumno/2`: que relaciona a un **alumno** con su **docente**.  
+
+y codificar el predicado `puedeIr/1`, que se verifica para una persona si ésta puede ir a la fiesta 
 
