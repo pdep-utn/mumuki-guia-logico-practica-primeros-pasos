@@ -3,6 +3,8 @@ test(puedeAndar_en_contaduria_si_es_contandor_y_honesto) :-
 
 test(no_puedeAndar_en_contaduria_si_es_contandor_no_honesto) :-
   \+ puedeAndar(contaduria, hector).
+test(no_puedeAndar_en_contaduria_si_no_es_contandor_y_es_honesto) :-
+  \+ puedeAndar(contaduria, raul).  
 
 test(no_puedeAndar_en_contaduria_si_no_es_contandor) :-
   \+ puedeAndar(contaduria, maria).
