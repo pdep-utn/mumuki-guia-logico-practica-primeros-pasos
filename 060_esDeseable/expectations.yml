@@ -1,7 +1,0 @@
-expectations:
-- binding: esDeseable
-  inspection: HasBinding
-- binding: esCompatible
-  inspection: Not:HasBinding
-- binding: esDeseable
-  inspection: Not:HasUsage:Not

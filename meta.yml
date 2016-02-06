@@ -1,6 +1,10 @@
-name: 'Práctica Primeros Pasos'
+---
+name: Práctica Hechos y Reglas
 locale: es
+type: practice
+beta: false
 language: prolog
+id_format: '%05d'
 order:
 - 1
 - 10

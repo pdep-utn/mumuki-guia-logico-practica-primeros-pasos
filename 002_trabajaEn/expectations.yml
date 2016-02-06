@@ -1,7 +1,0 @@
-expectations:
-- binding: empleado
-  inspection: HasBinding
-- binding: trabajaEn
-  inspection: HasBinding
-- binding: trabajaEn
-  inspection: HasUsage:empleado

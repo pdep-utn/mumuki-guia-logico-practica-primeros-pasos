@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: gustaDe
+  inspection: HasBinding
+- binding: gustaDe
+  inspection: HasUsage:gustaDe

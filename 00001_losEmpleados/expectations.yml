@@ -1,0 +1,12 @@
+---
+expectations:
+- binding: contador
+  inspection: HasBinding
+- binding: abogado
+  inspection: HasBinding
+- binding: ingeniero
+  inspection: HasBinding
+- binding: joven
+  inspection: HasBinding
+- binding: honesto
+  inspection: HasBinding

@@ -1,0 +1,14 @@
+---
+expectations:
+- binding: contador
+  inspection: Not:HasBinding
+- binding: honesto
+  inspection: Not:HasBinding
+- binding: ambicioso
+  inspection: Not:HasBinding
+- binding: trabajoEn
+  inspection: Not:HasBinding
+- binding: tieneExperiencia
+  inspection: HasBinding
+- binding: puedeAndar
+  inspection: HasUsage:tieneExperiencia

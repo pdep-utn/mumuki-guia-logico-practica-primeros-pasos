@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: daOrdenes
+  inspection: HasBinding
+- binding: empleado
+  inspection: Not:HasBinding
+- binding: daOrdenes
+  inspection: HasUsage:empleado
