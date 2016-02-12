@@ -12,5 +12,3 @@ expectations:
   inspection: HasBinding
 - binding: puedeAndar
   inspection: HasUsage:tieneExperiencia
-- binding: ''
-  inspection: ''
