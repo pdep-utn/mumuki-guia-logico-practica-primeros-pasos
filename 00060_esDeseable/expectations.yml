@@ -6,3 +6,5 @@ expectations:
   inspection: Not:HasBinding
 - binding: esDeseable
   inspection: Not:HasUsage:Not
+- binding: ''
+  inspection: ''
