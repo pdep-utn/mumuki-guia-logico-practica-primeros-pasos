@@ -1,15 +1,13 @@
-Una empresa está buscando candidatos para varios de sus sectores. Desarrollar una base de conocimiento con la siguiente información:
+Una empresa está buscando candidatos para varios de sus sectores. 
+Se sabe que:
 
-* Roque es contador, honesto y joven
-* Ana es ingeniera y honesta
-* Cecilia es abogada
+ * Roque es contador, honesto y joven
+ * Ana es ingeniera y honesta
+ * Cecilia es abogada
 
-**Nota**: resolverlo de forma que la base se pueda consultar de la siguiente forma:
-
-```prolog
-? honesto(Quien).
-Quien = roque;
-Quien = ana.
-```
-
-etc.
+> Escribí una base de conocimiento que permita consultarla de la siguiente forma:
+> 
+> ```prolog
+> ? honesto(roque).
+> yes
+>```

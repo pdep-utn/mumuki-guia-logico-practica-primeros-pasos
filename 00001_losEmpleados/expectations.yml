@@ -10,3 +10,5 @@ expectations:
   inspection: HasBinding
 - binding: honesto
   inspection: HasBinding
+- binding: ''
+  inspection: ''

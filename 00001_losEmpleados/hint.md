@@ -5,12 +5,6 @@ queHaceDeSuVida(aristoteles, filosofo).
 queHaceDeSuVida(aristoteles, cientifco).
 ```
 
-o
-
-```prolog
-profesiones(aristoteles, [filosofo, cientifico]).
-```
-
 Sin embargo, siempre es una buena idea mantener la base de conocimiento lo más simple posible:
 
 ```prolog
@@ -18,6 +12,6 @@ filosofo(aristoteles).
 cientifico(aristoteles).
 ```
 
-Por eso, la idea de este ejercicio es modelarla siguiente esta ultima forma.
+Por eso, la idea de este ejercicio es modelarla de esta ultima forma.
 
 
