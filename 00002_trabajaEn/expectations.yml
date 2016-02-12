@@ -6,3 +6,5 @@ expectations:
   inspection: HasBinding
 - binding: trabajaEn
   inspection: HasUsage:empleado
+- binding: ''
+  inspection: ''
