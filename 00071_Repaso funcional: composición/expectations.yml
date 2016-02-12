@@ -4,3 +4,5 @@ expectations:
   inspection: HasBinding
 - binding: tipoDeLaComposicion
   inspection: HasArity:4
+- binding: ''
+  inspection: ''
