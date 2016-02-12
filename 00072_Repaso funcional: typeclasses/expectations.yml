@@ -4,3 +4,5 @@ expectations:
   inspection: HasBinding
 - binding: puedoUsar
   inspection: HasArity:2
+- binding: ''
+  inspection: ''
