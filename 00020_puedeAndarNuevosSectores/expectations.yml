@@ -12,5 +12,3 @@ expectations:
   inspection: Not:HasBinding
 - binding: abogado
   inspection: Not:HasBinding
-- binding: ''
-  inspection: ''
