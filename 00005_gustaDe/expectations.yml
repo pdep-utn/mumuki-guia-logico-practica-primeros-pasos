@@ -4,3 +4,5 @@ expectations:
   inspection: HasBinding
 - binding: gustaDe
   inspection: HasUsage:gustaDe
+- binding: ''
+  inspection: ''
