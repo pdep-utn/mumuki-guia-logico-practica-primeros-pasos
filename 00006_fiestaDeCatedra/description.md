@@ -12,10 +12,10 @@ La información es esta:
 
 A la fiesta pueden ir: Nico, Daniel, y los alumnos de alguien que puede ir. Como las chicas insistieron, también pueden ir los carilindos.
 
-Se pide generar la base de conocimiento necesaria definiendo los predicados 
-
-* `carilindo/1` y `simpatico/1`: dicen si alguien es carilindo o simpático, respectivamente
-* `alumno/2`: que relaciona a un **alumno** con su **docente** (ojo con el orden de los argumentos!)
-
-y codificar el predicado `puedeIr/1`, que se verifica para una persona si ésta puede ir a la fiesta 
+> Escribí una base de conocimiento que permita responder las siguientes preguntas:
+> 
+> * `carilindo/1` y `simpatico/1`: dicen si alguien es carilindo o simpático, respectivamente
+> * `alumno/2`: que relaciona a un **alumno** con su **docente** (ojo con el orden de los argumentos!)
+> * `puedeIr/1`, que se verifica para una persona si ésta puede ir a la fiesta 
+>
 

@@ -16,9 +16,7 @@ Codificar el predicado `atraeA/2`: que relaciona una persona y un color, cuando 
 Ejemplos de consulta:
 
 ```prolog
-? atraeA(mabel, Color).
-Color = rosa ;
-Color = rojo ;
-etc
+? atraeA(mabel, rosa).
+yes
 ```
 
