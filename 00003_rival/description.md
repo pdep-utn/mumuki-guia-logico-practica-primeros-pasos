@@ -7,11 +7,13 @@ Y que una selección tiene como rivales todos los otros equipos de su mismo grup
 
 Con todo esto, codificar el predicado `rival/2`, que relaciona dos selecciones que son rivales.
 
-El predicado debe ser inversible para su segundo parámetro, permitiendo consultas del tipo:
 
 ```prolog
-?- rival(argentina, Rival).
-Rival = nigeria;
-Rival = japon;
-Rival = escocia.
+?- rival(argentina, nigeria).
+yes
+```
+
+```prolog
+?- rival(argentina, argentina).
+no
 ```

@@ -10,12 +10,13 @@ Los siguientes son los empleados de una empresa:
   * gerente: Felipe
   * cadetes: Ana y Hugo
 
-Desarrollar esta base de conocimientos de forma tal que se pueda responder consultas de la siguiente forma:
+Desarrollará esta base de conocimientos de forma tal que se pueda responder consultas de la siguiente forma:
 
 ```prolog
-?- trabajaEn(compras, Quien).
-Quien = nora;
-Quien = pedro.
+?- trabajaEn(compras, nora).
+yes
+?- trabajaEn(compras, ana).
+no
 ```
 
-**Nota**: modelar el conocimiento utilizando hechos `empleado/3`, que relacionan un deparamento, una persona y su puesto.
+Modelá el conocimiento utilizando hechos `empleado/3`, que relacionan un deparamento, una persona y su puesto.

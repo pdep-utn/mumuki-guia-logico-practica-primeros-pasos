@@ -6,3 +6,5 @@ expectations:
   inspection: Not:HasBinding
 - binding: daOrdenes
   inspection: HasUsage:empleado
+- binding: ''
+  inspection: ''

@@ -2,3 +2,5 @@
 expectations:
 - binding: rival
   inspection: HasBinding
+- binding: ''
+  inspection: ''

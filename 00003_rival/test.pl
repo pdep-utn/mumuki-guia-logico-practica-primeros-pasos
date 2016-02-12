@@ -28,9 +28,6 @@ test(japon_no_es_rival_de_japon):-
 test(colombia_no_es_rival_de_japon):-
   \+ rival(colombia,japon).
 
-test(rival_es_inversible):-
-  findall(Rival, rival(argentina, Rival), Rivales),
-  length(Rivales, 3).
 
 
 
