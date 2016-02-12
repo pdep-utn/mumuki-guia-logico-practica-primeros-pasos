@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: puedoUsar
+  inspection: HasBinding
+- binding: puedoUsar
+  inspection: HasArity:2
