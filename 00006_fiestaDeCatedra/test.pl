@@ -26,5 +26,5 @@ puedeIr(leo).
 test(test_no_puede_ir_lautaro):-
 not(puedeIr(lautaro)).
 
-test(test_no_puede_ir_caludio):-
+test(test_no_puede_ir_claudio):-
 not(puedeIr(claudio)).
