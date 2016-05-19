@@ -1,0 +1,1 @@
+Para representar la información del tipo de una función, podés hacer un predicado auxiliar tipo/3.
