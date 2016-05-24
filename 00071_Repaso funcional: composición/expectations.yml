@@ -1,6 +1,0 @@
----
-expectations:
-- binding: tipoDeLaComposicion
-  inspection: HasBinding
-- binding: tipoDeLaComposicion
-  inspection: HasArity:4
