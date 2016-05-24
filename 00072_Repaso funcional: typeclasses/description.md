@@ -1,4 +1,4 @@
-Un poco más de repaso funcional: 
+Hagamos un poco de repaso del paradigma funcional: 
 
 * a los Num los podemos sumar, restar y multiplicar
 * a los Fractional los podemos dividir
