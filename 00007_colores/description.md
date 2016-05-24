@@ -1,4 +1,4 @@
-Escribir un programa Prolog que responda consultas acerca de qué colores atraen a una determinada persona, de acuerdo con la siguiente información:
+Escribí un programa Prolog que responda consultas acerca de qué colores atraen a una determinada persona, de acuerdo con la siguiente información:
 
 * A Mabel y a Ana les atrae el rosa.
 * A Mara le atraen el celeste y el lila.
@@ -11,7 +11,7 @@ Escribir un programa Prolog que responda consultas acerca de qué colores atraen
 * Ana y Pablo son mayores.
 * El rosa, el celeste y el lila son colores pastel.
 
-Codificar el predicado `atraeA/2`: que relaciona una persona y un color, cuando a la persona le atrea este color.
+Codificá el predicado `atraeA/2`: que relaciona una persona y un color, cuando a la persona le atrea este color.
 
 Ejemplos de consulta:
 

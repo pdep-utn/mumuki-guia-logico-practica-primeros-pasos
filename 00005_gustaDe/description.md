@@ -10,4 +10,4 @@ En un grupo de amigos, sabemos que:
 * A Ana no le gusta nadie
 * A Zulema le gusta Ana
 
-Desarrollar un predicado `gustaDe/2`, que nos diga si una persona gusta de la otra.
+> Desarrollá un predicado `gustaDe/2`, que nos diga si una persona gusta de la otra.
