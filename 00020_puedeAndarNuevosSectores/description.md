@@ -1,4 +1,4 @@
-¡Tenemos nuevos sectores!: proyectos y logística. Y queremos saber qué empleandos pueden servir para cada uno de ellos. Se sabe que:
+¡Tenemos nuevos sectores!: proyectos y logística. Y queremos saber qué empleados pueden servir para cada uno de ellos. Se sabe que:
 
 * proyectos: pueden andar ingenieros con experiencia y también abogados jóvenes.
 * logística: pueden andar profesionales (ingenieros o abogados) que sean jóvenes o tengan experiencia.
