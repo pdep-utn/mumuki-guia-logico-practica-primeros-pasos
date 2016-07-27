@@ -1,4 +1,4 @@
-En nuestra agencia matrimonoal ahora queremos conocer a las personas deseables.
+En nuestra agencia matrimonial ahora queremos conocer a las personas deseables.
 
 Desarrollar `esDeseable/1`, sabiendo que una persona es deseable si es compatible con, por lo menos, dos personas distintas.
 
