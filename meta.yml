@@ -5,14 +5,13 @@ type: practice
 beta: false
 teacher_info: ''
 language: prolog
-id_format: '%05d'
+id_format: "%05d"
 order:
 - 1
 - 10
 - 20
 - 2
 - 4
-- 60
 - 5
 - 7
 - 72
