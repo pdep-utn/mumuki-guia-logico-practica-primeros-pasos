@@ -1,4 +1,4 @@
-Ahora queremos saber qué empleandos pueden servir para un sector dado.
+Ahora queremos saber qué empleados pueden servir para un sector dado.
 
 Sabiendo que la base de conocimiento contiene hechos de la forma:
 
