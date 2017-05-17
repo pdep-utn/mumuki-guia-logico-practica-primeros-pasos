@@ -10,6 +10,9 @@ test(un_ingeniero_sin_experiencia_no_puedeAndar_proyectos) :-
 test(un_abogado_no_joven_no_puedeAndar_proyectos) :-
   \+ puedeAndar(proyectos, mariaAzul).
 
+test(un_abogado_joven_puedeAndar_proyectos) :-
+  \+ puedeAndar(proyectos, petrocelli).
+
 test(clotilde_puede_andar_ventas, [nondet]) :-
   puedeAndar(ventas, clotilde).
 
