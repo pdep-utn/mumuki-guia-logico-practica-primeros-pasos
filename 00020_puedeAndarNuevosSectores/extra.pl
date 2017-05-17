@@ -4,6 +4,7 @@ ingeniero(beatriz).
 
 abogado(mariaAzul).
 abogado(petrocelli).
+abogado(saulGoodman).
 
 joven(roberto).
 joven(anabela).

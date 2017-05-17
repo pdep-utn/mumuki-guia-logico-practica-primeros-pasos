@@ -22,7 +22,7 @@ test(clotilde_puede_andar_ventas, [nondet]) :-
 test(fulgencio_no_puedeAndar_logistica) :-
   \+ puedeAndar(logistica, fulgencio).
 
-test(un_ingeniero_sin_esperiencia_o_juventud_no_puedeAndar_logistica) :-
+test(un_ingeniero_sin_experiencia_o_juventud_no_puedeAndar_logistica) :-
   \+ puedeAndar(logistica, beatriz).
 
 test(un_ingeniero_joven_puedeAndar_logistica, [nondet]) :-
@@ -33,3 +33,6 @@ test(un_abogado_conExperiencia_puedeAndar_logistica, [nondet]) :-
 
 test(no_puedeAndar_logistica_si_no_es_profesional) :-
   \+ puedeAndar(logistica, anabela).
+
+test(un_abogado_sin_experiencia_o_juventud_no_puedeAndar_logistica) :-
+  \+ puedeAndar(logistica, saulGoodman).
