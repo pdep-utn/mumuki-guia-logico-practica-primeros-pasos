@@ -1,6 +1,9 @@
 test('puedoUsar(sumar, int)') :-
   puedoUsar(sumar, int).
 
+test('puedoUsar(sumar, fractional)') :-
+  puedoUsar(sumar, int).
+
 test('puedoUsar(mostrar, float)') :-
     puedoUsar(mostrar, float).
 
