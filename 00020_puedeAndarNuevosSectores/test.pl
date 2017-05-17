@@ -13,6 +13,9 @@ test(un_abogado_no_joven_no_puedeAndar_proyectos) :-
 test(un_abogado_joven_puedeAndar_proyectos) :-
   puedeAndar(proyectos, petrocelli).
 
+test(clotilde_no_puede_andar_contaduria, [nondet]) :-
+  \+ puedeAndar(contaduria, clotilde).
+
 test(clotilde_puede_andar_ventas, [nondet]) :-
   puedeAndar(ventas, clotilde).
 
