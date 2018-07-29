@@ -1,6 +1,6 @@
 ¡Bienvenido!
 
-Esta es la guía introductoria a Prolog y el [Paradigma Lógico](http://uqbar-wiki.org/index.php?title=Paradigma_L%C3%B3gico). 
+Esta es la guía introductoria a Prolog y el [Paradigma Lógico](http://wiki.uqbar.org/wiki/articles/paradigma-logico.html). 
 
 ¿Qué necesitás saber?
 
