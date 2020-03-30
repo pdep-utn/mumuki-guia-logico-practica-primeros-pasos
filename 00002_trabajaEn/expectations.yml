@@ -1,8 +1,11 @@
 ---
 expectations:
-- binding: empleado
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: empleado
   inspection: HasBinding
-- binding: trabajaEn
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: trabajaEn
   inspection: HasBinding
-- binding: trabajaEn
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: trabajaEn
   inspection: HasUsage:empleado

@@ -3,7 +3,6 @@ name: Práctica Hechos y Reglas
 locale: es
 type: practice
 beta: false
-teacher_info: ''
 language: prolog
 id_format: "%05d"
 order:
@@ -15,3 +14,4 @@ order:
 - 5
 - 7
 - 72
+private: false

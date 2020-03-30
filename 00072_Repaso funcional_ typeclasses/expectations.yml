@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: puedoUsar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: puedoUsar
   inspection: HasBinding
-- binding: puedoUsar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: puedoUsar
   inspection: HasArity:2

@@ -1,14 +1,20 @@
 ---
 expectations:
-- binding: puedeAndar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: puedeAndar
   inspection: HasUsage:profesional
-- binding: profesional
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: profesional
   inspection: HasBinding
-- binding: conExperiencia
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: conExperiencia
   inspection: Not:HasBinding
-- binding: joven
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: joven
   inspection: Not:HasBinding
-- binding: ingeniero
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ingeniero
   inspection: Not:HasBinding
-- binding: abogado
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: abogado
   inspection: Not:HasBinding

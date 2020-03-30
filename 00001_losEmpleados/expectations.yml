@@ -1,12 +1,17 @@
 ---
 expectations:
-- binding: contador
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: contador
   inspection: HasBinding
-- binding: abogado
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: abogado
   inspection: HasBinding
-- binding: ingeniero
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ingeniero
   inspection: HasBinding
-- binding: joven
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: joven
   inspection: HasBinding
-- binding: honesto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: honesto
   inspection: HasBinding

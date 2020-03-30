@@ -15,6 +15,9 @@ test('puedoUsar(mostrar, float)') :-
 
 test('puedoUsar(mostrar, double)') :-
     puedoUsar(mostrar, double).
+    
+test('puedoUsar(dividir, double)') :-
+    puedoUsar(dividir, double).
 
 test('puedoUsar(mostrar, bool)') :-
     puedoUsar(mostrar, bool).

@@ -1,14 +1,20 @@
 ---
 expectations:
-- binding: contador
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: contador
   inspection: Not:HasBinding
-- binding: honesto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: honesto
   inspection: Not:HasBinding
-- binding: ambicioso
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ambicioso
   inspection: Not:HasBinding
-- binding: trabajoEn
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: trabajoEn
   inspection: Not:HasBinding
-- binding: tieneExperiencia
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: tieneExperiencia
   inspection: HasBinding
-- binding: puedeAndar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: puedeAndar
   inspection: HasUsage:tieneExperiencia

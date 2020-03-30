@@ -1,10 +1,6 @@
 ---
-tags:
-- pdep
-- guia1
-- basico
-- descripciones
-- unificación
+locale: es
+tags: []
 layout: input_right
 editor: code
 type: problem
