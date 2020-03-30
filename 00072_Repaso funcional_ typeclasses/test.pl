@@ -15,9 +15,6 @@ test('puedoUsar(mostrar, float)') :-
 
 test('puedoUsar(mostrar, double)') :-
     puedoUsar(mostrar, double).
-    
-test('puedoUsar(dividir, double)') :-
-    puedoUsar(dividir, double).
 
 test('puedoUsar(mostrar, bool)') :-
     puedoUsar(mostrar, bool).
@@ -28,6 +25,9 @@ test('puedoUsar(mostrar, double)') :-
 test('puedoUsar(mostrar, int)') :-
     puedoUsar(mostrar, int).
 
+test('puedoUsar(dividir, double)') :-
+    puedoUsar(dividir, double).
+
 test('no puedoUsar(dividir, int)') :-
     \+ puedoUsar(dividir, int).
 
@@ -36,3 +36,6 @@ test('no puedoUsar(dividir, bool)') :-
 
 test('no puedoUsar(sumar, bool)') :-
     \+ puedoUsar(sumar, bool).
+    
+test('no puedoUsar(sumar, fractional)') :-
+    \+ puedoUsar(sumar, fractional).
