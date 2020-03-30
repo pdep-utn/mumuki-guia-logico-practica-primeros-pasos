@@ -1,4 +1,4 @@
-Haskell es un lenguaje funcional, donde la forma de saber qué operación se puede hacer con un tipo de dato, depende de la **typeclass** a la que pertence. Cada typeclass especifica sus operaciones permitidas. Algunas de las typeclasses son `Num`, `Fractional` y `Show`.
+Haskell es un lenguaje funcional, donde la forma de saber qué operación se puede hacer con un tipo de dato, depende de la **typeclass** a la que pertence. Cada typeclass especifica sus operaciones permitidas. Algunas de las typeclasses son Num, Fractional y Show.
 
 * a los Num los podemos sumar, restar y multiplicar
 * a los Fractional los podemos dividir
@@ -8,6 +8,7 @@ Haskell es un lenguaje funcional, donde la forma de saber qué operación se pue
 * los Bool son Show
 
 Y hay una particularidad más entre las typeclasses: 
+
 * todos los Fractional son Num
 
 
@@ -19,11 +20,11 @@ Y hay una particularidad más entre las typeclasses:
 > ? puedoUsar(mostrar, int).
 > yes
 > ? puedoUsar(sumar, float).
-> yes (Porque los float son fractional y los fractional tienen las mismas operaciones que los num)
+> yes % Porque los float son fractional y los fractional tienen las mismas operaciones que los num %
 > ? puedoUsar(dividir, int).
-> no (Porque dividir no es valido para los int)
-> puedoUsar(sumar, fractional).
-> no (Porque fractional es la typeclass, no es un tipo de dato)
-> puedoUsar(comparar, int).
-> no (Porque comparar no es una operacion)
+> no % Porque dividir no es valido para los int %
+> ? puedoUsar(sumar, fractional).
+> no % Porque fractional es la typeclass, no el tipo de dato %
+> ? puedoUsar(comparar, int).
+> no % Porque comparar no es una operacion %
 > ```
