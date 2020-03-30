@@ -1,12 +1,14 @@
-Haskell es un lenguaje funcional, donde la forma de saber qué operación se puede hacer con un tipo de dato, depende de la **typeclass** a la que pertence. Cada typeclass especifica sus operaciones permitidas y además una puede extender de otra, ampliando de esta manera sus operaciones válidas. Algunas de las typeclasses son `Num`, `Fractional` y `Show`.
+Haskell es un lenguaje funcional, donde la forma de saber qué operación se puede hacer con un tipo de dato, depende de la **typeclass** a la que pertence. Cada typeclass especifica sus operaciones permitidas. Algunas de las typeclasses son `Num`, `Fractional` y `Show`.
 
 * a los Num los podemos sumar, restar y multiplicar
 * a los Fractional los podemos dividir
 * a los Show los podemos mostrar
-* todos los Fractional son Num
 * los Int son Num y Show
 * los Float y Double son Fractional y Show
 * los Bool son Show
+
+Y hay una particularidad más entre las typeclasses: 
+* todos los Fractional son Num
 
 
 > Escribí el predicado `puedoUsar/2`, que toma una función y un tipo de dato y nos diga si puedo usar la función con un valor de ese tipo. Ejemplos:
