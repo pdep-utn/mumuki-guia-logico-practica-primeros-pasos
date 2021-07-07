@@ -5,11 +5,12 @@ Escribí un programa Prolog que responda consultas acerca de qué colores atraen
 * A Juan le atraen todos los colores pastel.
 * A todas las mujeres y a Pablo les atrae el azul.
 * A los varones mayores y a Mabel les atrae el rojo.
-* A todos los porteños (sin importar el sexo) y a Adrián les atrae el amarillo.
+* A todos los porteños (sin importar el género) y a Adrián les atrae el amarillo.
 * A Ana y a Juan les atrae el naranja.
 * Mabel, Mara y Pablo son porteños.
 * Ana y Pablo son mayores.
 * El rosa, el celeste y el lila son colores pastel.
+* Mabel, Ana y Mara son mujeres, Juan, Pablo y Adrián son varones.
 
 Codificá el predicado `atraeA/2`: que relaciona una persona y un color, cuando a la persona le atrea este color.
 
