@@ -1,2 +1,2 @@
 * La variable anónima nos puede ser útil para realizar consultas existenciales (es decir, si existe algún individuo que haga verdadera a la consulta)
-* La condición de tener experiencia parece ser un concepto de dominio; no olvidar delegar apropiadamente.
+* La condición de tener experiencia parece ser un concepto de dominio; no olvidar delegar apropiadamente! Te proponemos desarrollar un predicado `tieneExperiencia/1` para este fin.
